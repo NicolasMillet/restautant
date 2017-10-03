@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/db.js"],"names":["db","connect","callback"],"mappings":";;;;;;AAAA;;;;;;kBACe,oBAAY;AAC3B,MAAIA,KAAK,mBAASC,OAAT,CAAkB,iCAAlB,CAAT;AACAC,WAAUF,EAAV;AACC,C","file":"db.js","sourcesContent":["import mongoose from \"mongoose\";\nexport default callback => {\nlet db = mongoose.connect( \"mongodb//localhost:27017/manger\");\ncallback (db);\n}\n"]}
